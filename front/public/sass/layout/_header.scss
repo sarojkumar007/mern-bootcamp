@@ -1,0 +1,17 @@
+.header{
+	min-height: 35vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-p);
+	color: var(--color-white);
+
+	& > span {
+		text-align: center;
+		font-size: 5rem;
+	}
+
+	& > span > p {
+		font-size: 1.7rem;
+	}
+}

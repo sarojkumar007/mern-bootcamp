@@ -1,0 +1,26 @@
+/api/auth/signup - POST
+/api/auth/signin - POST
+/api/auth/signout - GET
+
+/api/category/create/:uid - POST
+/api/category/:categoryId - GET
+/api/category/:categoryId/update/:uid - PUT
+/api/category/:categoryId/del/:uid - DELETE
+/api/category/all - GET
+
+/api/order/create/:uid - POST
+/api/order/status/:uid - GET
+/api/order/:orderId/update/:uid - PUT
+/api/order/all/:uid - GET
+
+/api/product/create/:uid - POST
+/api/product/:pId - GET
+/api/product/:pId/photo - GET
+/api/product/:pId/del/:uid - DELETE
+/api/product/:pId/update/:uid - PUT
+/api/product/all - GET
+/api/product/categories - GET
+
+/api/user/:uid - GET
+/api/user/:uid/update - PUT
+/api/user/:uid/orders - GET

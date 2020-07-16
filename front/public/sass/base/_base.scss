@@ -1,0 +1,22 @@
+*,
+*::before,
+*:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body{
+	color: var(--color-black);
+	box-sizing: border-box;
+	line-height: 1.6;
+
+	font-family: $font-1;
+	font-weight: 300;
+	font-size: 1.5rem;
+}

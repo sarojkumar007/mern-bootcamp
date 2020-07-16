@@ -1,0 +1,7 @@
+lookup: back>controllers>user
+look: npm-lodash
+look: npm-formidable
+look: npm-mongoose
+lookup: back>controllers>product:155
+lookup: back>models>order:23
+look: reacttraining.com

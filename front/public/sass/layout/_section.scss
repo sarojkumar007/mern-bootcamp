@@ -1,0 +1,90 @@
+.main{
+	min-height: calc(100vh - 13rem);
+}
+
+.section{
+	min-height: 50vh;
+
+	&__products{
+		padding: 3rem;
+	}
+
+	&__dashboard{
+		padding: 3rem;
+		background-color: var(--color-white);
+		color: var(--color-grey);
+	}
+
+	&__signup{
+		font-size: 1.5rem;
+		margin: 3rem;
+		min-width: 35rem;
+		background-color: #fff;
+		padding: 3rem;
+		border-radius: 5px;
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: space-between;
+
+		& h3{
+			color: var(--color-p);
+		}
+		& label, & input, & textarea, & select {
+			display: block;
+			width: 100%;
+			margin: 0;
+		}
+		& label {
+			color: var(--color-grey);
+			padding: 1rem 0;
+		}
+		& input, & textarea, & select{
+			&:not(.button){
+				resize: none;
+				font-family: inherit;
+				font-weight: 400;
+				font-size: 1.4rem;
+				line-height: 1;
+				padding: 1rem;
+				border: 2px solid #999;
+				border-radius: 3px;
+				&:focus{
+					outline: none;
+					border: 2px solid var(--color-p);
+				}
+			}
+			
+		}
+	}
+
+}
+
+.full-w{
+	width: 100%;
+}
+
+.input-group{
+	& .button{
+		margin-left: 0;
+		margin-top: 2rem;
+	}
+}
+
+.products__container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: minmax(10rem,auto);
+	gap: 3rem;
+	justify-content: center;
+
+	@include respond(tab-land){
+		grid-template-columns: repeat(3, 1fr);
+	}
+	@include respond(tab){
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@include respond(phone){
+		grid-template-columns: 1fr;
+	}
+}
+

@@ -1,0 +1,17 @@
+/* .btn, */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+p{
+  margin: 0;
+}
