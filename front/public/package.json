@@ -12,7 +12,7 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
